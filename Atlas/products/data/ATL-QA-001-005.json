@@ -1,0 +1,29 @@
+{
+  "product_id": "ATL-QA-001-005", "collection_id": "ATL-QA-001", "name": "Plinth Object Riser", "status": "Experimental", "version": "1.0.0", "owner": "Atlas Studio", "review_date": "2026-10-07", "lifecycle_stage": "Idea", "confidence": "Low",
+  "product_dna": {"core_purpose": "Elevate a small perfume, jewelry, mineral, or keepsake for display.", "design_philosophy": "A low stepped plinth creates hierarchy without competing with the displayed object.", "emotional_appeal": "Turns an ordinary possession into a considered vignette.", "target_customer": "Vanity, shelf, and product-photography users.", "functional_benefits": "Adds height and grouping to small displays.", "decorative_benefits": "Architectural step profile and controlled shadow.", "print_complexity": "Moderate; broad surfaces and load stability require testing.", "material_efficiency": "Hollowing may reduce mass but needs drainage and strength validation.", "brand_alignment": "Strong Quiet Architectural hierarchy.", "future_evolution": "Three-height set, photo prop pack, XL vanity riser, and commercial display kit.", "physical_manufacturing_potential": "Plausible as a mineral-composite display object after load testing."},
+  "design_tokens": {"corner_radius": "Broad plan-view radii", "wall_thickness": "Hollow prototype with reinforced top", "chamfer_style": "Shallow stepped chamfers", "fillet_style": "Soft base transition", "edge_language": "Two calm horizontal levels", "texture_density": "None", "surface_finish": "Matte mineral", "relief_depth": "None", "pattern_scale": "Object-scale stepping", "shadow_language": "One strong horizontal shadow line", "visual_weight": "Grounded", "design_balance": "Centered with offset display option", "material_simulation": "Honest resin"},
+  "evidence_ids": ["EVD-004", "EVD-009"],
+  "scores": {
+    "market_demand": {"score": 5, "rationale": "EVD-004 shows perfume and jewelry display use, while direct riser demand is Unknown in EVD-009."},
+    "competition_opportunity": {"score": 6, "rationale": "EVD-009 marks direct competitor evidence Unknown, so opportunity is provisional."},
+    "profitability": {"score": 6, "rationale": "EVD-009 marks resin mass, cost, and willingness-to-pay Unknown."},
+    "evergreen_potential": {"score": 8, "rationale": "EVD-004 shows persistent vanity, jewelry, and perfume display uses."},
+    "brand_alignment": {"score": 9, "rationale": "EVD-009 marks market validation Unknown; a restrained plinth is strongly aligned internally."},
+    "collection_potential": {"score": 8, "rationale": "EVD-004 supports a complementary display role within a jewelry and vanity collection."},
+    "bundle_potential": {"score": 8, "rationale": "EVD-007 demonstrates collection packaging; a riser adds spatial display value to the set."},
+    "physical_product_potential": {"score": 8, "rationale": "EVD-004 shows physical display objects and trays in adjacent contexts."},
+    "seo_opportunity": {"score": 5, "rationale": "EVD-004 offers display and perfume language, but direct riser keywords are Unknown in EVD-009."},
+    "resin_printability": {"score": 8, "rationale": "EVD-009 marks resin testing Unknown; geometry is simple but hollowing and broad planes require prototypes."},
+    "ai_production_efficiency": {"score": 8, "rationale": "EVD-009 marks production evidence Unknown; stepped forms are efficient to model parametrically."},
+    "customer_value": {"score": 7, "rationale": "EVD-004 supports display organization, but the value of a dedicated riser is not directly validated."},
+    "production_simplicity": {"score": 8, "rationale": "EVD-009 marks print evidence Unknown; few features reduce modeling complexity."},
+    "marketplace_fit": {"score": 6, "rationale": "EVD-004 supports Etsy lifestyle fit while Cults3D-specific evidence is Unknown."}
+  },
+  "risk_penalty": 4, "atlas_score": 66.2,
+  "strengths": ["Strong visual-system role", "Useful lifestyle imagery", "Natural multi-size set"],
+  "weaknesses": ["Weak direct demand evidence", "Potentially high resin mass", "Use may feel optional"],
+  "risks": ["Top may sag or warp", "Hollow body may flex", "Customer may substitute common objects"],
+  "improvement_actions": ["Prototype reinforced hollow structures", "Measure load stability", "Research display riser and photo prop terms"],
+  "expansion_opportunities": ["Three-height set", "XL vanity riser", "Commercial photo-prop pack", "Physical mineral-composite edition"],
+  "change_history": [{"version": "1.0.0", "date": "2026-07-07", "change": "Initial low-confidence product hypothesis."}]
+}

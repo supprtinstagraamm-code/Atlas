@@ -1,0 +1,29 @@
+{
+  "product_id": "ATL-QA-001-006", "collection_id": "ATL-QA-001", "name": "Rhythm Relief Tile", "status": "Experimental", "version": "1.0.0", "owner": "Atlas Studio", "review_date": "2026-10-07", "lifecycle_stage": "Idea", "confidence": "Low",
+  "product_dna": {"core_purpose": "Provide a small freestanding or wall-mounted architectural relief accent.", "design_philosophy": "Repeated shallow arches make light and shadow the decoration.", "emotional_appeal": "A quiet fragment of architecture for a shelf or wall.", "target_customer": "Modern-interior customers seeking compact sculptural wall or shelf art.", "functional_benefits": "Small-format art with optional stand or safe mounting system.", "decorative_benefits": "Rhythmic shadow, mineral finish, and collection continuity.", "print_complexity": "Moderate; flatness, mounting, supports, and brittle edges need tests.", "material_efficiency": "Thin relief may be efficient but cannot compromise stiffness.", "brand_alignment": "Very strong visual alignment.", "future_evolution": "Triptych, XL panel, seasonal relief, and member studies.", "physical_manufacturing_potential": "Possible in cast relief panels after mounting and breakage review."},
+  "design_tokens": {"corner_radius": "Arch-radius module", "wall_thickness": "Thin backed panel validated for stiffness", "chamfer_style": "Fine perimeter bevel", "fillet_style": "Small relief-root fillets", "edge_language": "Repeated arches within one quiet frame", "texture_density": "Low geometric repetition", "surface_finish": "Matte plaster-like color", "relief_depth": "Shallow to moderate", "pattern_scale": "Visible at thumbnail and room scale", "shadow_language": "Repeated soft vertical shadows", "visual_weight": "Light but not fragile", "design_balance": "Modular rhythm", "material_simulation": "Resin disclosed; plaster-like color only"},
+  "evidence_ids": ["EVD-003", "EVD-008", "EVD-009"],
+  "scores": {
+    "market_demand": {"score": 4, "rationale": "EVD-009 marks direct relief-tile demand Unknown; EVD-003 provides only shelf-decor adjacency."},
+    "competition_opportunity": {"score": 7, "rationale": "EVD-009 marks direct competition Unknown, suggesting a possible but unmeasured opening."},
+    "profitability": {"score": 5, "rationale": "EVD-009 marks price, cost, breakage, and conversion Unknown."},
+    "evergreen_potential": {"score": 8, "rationale": "EVD-003 supports nonseasonal shelf and home-decor contexts, though relief-specific evidence is Unknown."},
+    "brand_alignment": {"score": 9, "rationale": "EVD-009 marks market proof Unknown; repeated architectural shadow strongly fits the brand."},
+    "collection_potential": {"score": 8, "rationale": "EVD-008 demonstrates paired variant presentation; relief modules can extend the shared arch language."},
+    "bundle_potential": {"score": 8, "rationale": "EVD-008 shows multi-variant files; tiles naturally support sets and triptychs."},
+    "physical_product_potential": {"score": 7, "rationale": "EVD-009 marks physical relief evidence Unknown; cast panels are plausible but unvalidated."},
+    "seo_opportunity": {"score": 4, "rationale": "EVD-009 confirms direct keyword evidence is Unknown."},
+    "resin_printability": {"score": 7, "rationale": "EVD-009 marks resin validation Unknown; thin panels risk warping and brittle corners."},
+    "ai_production_efficiency": {"score": 9, "rationale": "EVD-009 marks production evidence Unknown; a repeatable parametric relief is efficient to generate."},
+    "customer_value": {"score": 6, "rationale": "EVD-003 supports shelf decor generally, but a relief tile's specific value is unvalidated."},
+    "production_simplicity": {"score": 7, "rationale": "EVD-009 marks print evidence Unknown; simple geometry is offset by flatness and mounting tests."},
+    "marketplace_fit": {"score": 5, "rationale": "EVD-003 provides Etsy decor adjacency; direct Cults3D relief evidence is Unknown."}
+  },
+  "risk_penalty": 5, "atlas_score": 60.8,
+  "strengths": ["Distinct brand expression", "Efficient variant generation", "Strong set potential"],
+  "weaknesses": ["No direct demand evidence", "Mounting adds responsibility", "Thin resin can warp"],
+  "risks": ["Brittle corners", "Unsafe or unclear wall mounting", "Render appeal may exceed physical result"],
+  "improvement_actions": ["Prototype freestanding version first", "Test backing ribs", "Research wall relief STL and physical decor"],
+  "expansion_opportunities": ["Triptych", "XL panel", "Seasonal shadow studies", "Membership relief drops"],
+  "change_history": [{"version": "1.0.0", "date": "2026-07-07", "change": "Initial low-confidence product hypothesis."}]
+}

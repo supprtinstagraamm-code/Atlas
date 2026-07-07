@@ -1,0 +1,29 @@
+{
+  "product_id": "ATL-QA-001-002", "collection_id": "ATL-QA-001", "name": "Arc Bud Vessel", "status": "Experimental", "version": "1.0.0", "owner": "Atlas Studio", "review_date": "2026-10-07", "lifecycle_stage": "Idea", "confidence": "Low",
+  "product_dna": {"core_purpose": "Display one dry stem or stand as a small shelf sculpture.", "design_philosophy": "A compressed arch body and narrow opening create calm vertical emphasis.", "emotional_appeal": "A quiet focal point for a small space.", "target_customer": "Modern-interior customers and resin makers seeking compact decor.", "functional_benefits": "Small-footprint dry botanical display.", "decorative_benefits": "Soft monolithic silhouette with controlled shadow.", "print_complexity": "Moderate; internal cavity, drainage, supports, and cure require testing.", "material_efficiency": "Smaller than common vases but hollowing efficiency is unverified.", "brand_alignment": "Strong form language with restrained surface treatment.", "future_evolution": "Two-height pair, sealed-liner option, mini and premium relief versions.", "physical_manufacturing_potential": "Possible as a cast decorative bud vessel after material and liquid-use review."},
+  "design_tokens": {"corner_radius": "Large continuous body radius", "wall_thickness": "Prototype hypothesis; no liquid-use claim", "chamfer_style": "Minimal foot chamfer", "fillet_style": "Soft shoulder-to-neck transition", "edge_language": "One continuous outer contour", "texture_density": "Very low", "surface_finish": "Matte limestone-like resin color", "relief_depth": "None in core edition", "pattern_scale": "Monolithic", "shadow_language": "Long vertical gradient", "visual_weight": "Stable lower body", "design_balance": "Centered and calm", "material_simulation": "Solid-color resin disclosed honestly"},
+  "evidence_ids": ["EVD-001", "EVD-005", "EVD-008", "EVD-009"],
+  "scores": {
+    "market_demand": {"score": 8, "rationale": "EVD-001, EVD-005, and EVD-008 show repeated minimalist-vase listings and visible engagement, mostly for FDM or free files."},
+    "competition_opportunity": {"score": 3, "rationale": "EVD-001, EVD-005, and EVD-008 demonstrate a crowded minimalist-vase theme."},
+    "profitability": {"score": 6, "rationale": "EVD-001 shows a low visible sale price while resin mass and paid conversion remain Unknown."},
+    "evergreen_potential": {"score": 8, "rationale": "EVD-001 positions a vase across modern interiors, centerpieces, and flowers rather than a narrow event."},
+    "brand_alignment": {"score": 9, "rationale": "EVD-009 marks resin-market validation Unknown; the compact arch silhouette strongly fits Quiet Architectural rules."},
+    "collection_potential": {"score": 9, "rationale": "EVD-007 and EVD-008 show variant and collection packaging for vessel families."},
+    "bundle_potential": {"score": 8, "rationale": "EVD-007 bundles multiple parts and links to a broader vessel collection."},
+    "physical_product_potential": {"score": 8, "rationale": "EVD-001 presents vase use in physical interior contexts, though Atlas manufacturing is untested."},
+    "seo_opportunity": {"score": 8, "rationale": "EVD-001, EVD-005, and EVD-008 provide repeated minimalist vase, modern decor, flower, and STL language."},
+    "resin_printability": {"score": 6, "rationale": "EVD-005 and EVD-008 concern printable files but resin hollowing, trapped resin, and support behavior are Unknown."},
+    "ai_production_efficiency": {"score": 8, "rationale": "EVD-009 marks production evidence Unknown; a smooth parametric vessel is efficient to model and vary."},
+    "customer_value": {"score": 7, "rationale": "EVD-001 identifies decor, centerpiece, flowers, and gift uses, but dry-stem limitation narrows value."},
+    "production_simplicity": {"score": 6, "rationale": "EVD-009 marks resin production Unknown; hollowing and drainage add complexity despite a simple exterior."},
+    "marketplace_fit": {"score": 8, "rationale": "EVD-001 supports Etsy fit and EVD-005/EVD-008 support Cults3D category fit."}
+  },
+  "risk_penalty": 5, "atlas_score": 68.0,
+  "strengths": ["Clear cross-market vocabulary", "Strong brand silhouette", "Natural size-variant path"],
+  "weaknesses": ["Crowded category", "FDM-heavy comparables", "No liquid or resin validation"],
+  "risks": ["Trapped uncured resin", "Support damage near opening", "Customers may assume watertight use"],
+  "improvement_actions": ["Position for dry stems until tested", "Prototype drain and cure access", "Differentiate with coordinated arch proportions"],
+  "expansion_opportunities": ["Two-height pair", "Mini bud trio", "Premium shallow relief", "Physical cast edition"],
+  "change_history": [{"version": "1.0.0", "date": "2026-07-07", "change": "Initial low-confidence product hypothesis."}]
+}

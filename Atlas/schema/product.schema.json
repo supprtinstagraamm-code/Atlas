@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://atlas.local/schema/product.schema.json",
+  "title": "Atlas Product Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["product_id", "collection_id", "name", "status", "version", "owner", "review_date", "lifecycle_stage", "confidence", "product_dna", "design_tokens", "evidence_ids", "scores", "risk_penalty", "atlas_score", "strengths", "weaknesses", "risks", "improvement_actions", "expansion_opportunities", "change_history"],
+  "properties": {
+    "product_id": {"type": "string", "pattern": "^ATL-QA-[0-9]{3}-[0-9]{3}$"},
+    "collection_id": {"type": "string", "pattern": "^ATL-QA-[0-9]{3}$"},
+    "name": {"type": "string", "minLength": 1},
+    "status": {"enum": ["Draft", "Experimental", "Approved", "Released", "Deprecated"]},
+    "version": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"},
+    "owner": {"type": "string", "minLength": 1},
+    "review_date": {"type": "string", "format": "date"},
+    "lifecycle_stage": {"enum": ["Idea", "Prototype", "Validated Product", "Hero Product", "Collection", "Bundle", "Premium Version", "Commercial License", "Physical Product", "Membership Exclusive", "Legacy Product", "Retired"]},
+    "confidence": {"enum": ["High", "Medium", "Low"]},
+    "product_dna": {"$ref": "#/$defs/product_dna"},
+    "design_tokens": {"$ref": "#/$defs/design_tokens"},
+    "evidence_ids": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "pattern": "^EVD-[0-9]{3,}$"}},
+    "scores": {"$ref": "#/$defs/scores"},
+    "risk_penalty": {"type": "number", "minimum": 0, "maximum": 10},
+    "atlas_score": {"type": "number", "minimum": 0, "maximum": 100},
+    "strengths": {"$ref": "#/$defs/nonempty_list"},
+    "weaknesses": {"$ref": "#/$defs/nonempty_list"},
+    "risks": {"$ref": "#/$defs/nonempty_list"},
+    "improvement_actions": {"$ref": "#/$defs/nonempty_list"},
+    "expansion_opportunities": {"$ref": "#/$defs/nonempty_list"},
+    "change_history": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/change"}}
+  },
+  "$defs": {
+    "nonempty_list": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+    "score": {"type": "object", "additionalProperties": false, "required": ["score", "rationale"], "properties": {"score": {"type": "number", "minimum": 0, "maximum": 10}, "rationale": {"type": "string", "minLength": 1}}},
+    "scores": {"type": "object", "additionalProperties": false, "required": ["market_demand", "competition_opportunity", "profitability", "evergreen_potential", "brand_alignment", "collection_potential", "bundle_potential", "physical_product_potential", "seo_opportunity", "resin_printability", "ai_production_efficiency", "customer_value", "production_simplicity", "marketplace_fit"], "properties": {
+      "market_demand": {"$ref": "#/$defs/score"}, "competition_opportunity": {"$ref": "#/$defs/score"}, "profitability": {"$ref": "#/$defs/score"}, "evergreen_potential": {"$ref": "#/$defs/score"}, "brand_alignment": {"$ref": "#/$defs/score"}, "collection_potential": {"$ref": "#/$defs/score"}, "bundle_potential": {"$ref": "#/$defs/score"}, "physical_product_potential": {"$ref": "#/$defs/score"}, "seo_opportunity": {"$ref": "#/$defs/score"}, "resin_printability": {"$ref": "#/$defs/score"}, "ai_production_efficiency": {"$ref": "#/$defs/score"}, "customer_value": {"$ref": "#/$defs/score"}, "production_simplicity": {"$ref": "#/$defs/score"}, "marketplace_fit": {"$ref": "#/$defs/score"}
+    }},
+    "product_dna": {"type": "object", "additionalProperties": false, "required": ["core_purpose", "design_philosophy", "emotional_appeal", "target_customer", "functional_benefits", "decorative_benefits", "print_complexity", "material_efficiency", "brand_alignment", "future_evolution", "physical_manufacturing_potential"], "properties": {
+      "core_purpose": {"type": "string", "minLength": 1}, "design_philosophy": {"type": "string", "minLength": 1}, "emotional_appeal": {"type": "string", "minLength": 1}, "target_customer": {"type": "string", "minLength": 1}, "functional_benefits": {"type": "string", "minLength": 1}, "decorative_benefits": {"type": "string", "minLength": 1}, "print_complexity": {"type": "string", "minLength": 1}, "material_efficiency": {"type": "string", "minLength": 1}, "brand_alignment": {"type": "string", "minLength": 1}, "future_evolution": {"type": "string", "minLength": 1}, "physical_manufacturing_potential": {"type": "string", "minLength": 1}
+    }},
+    "design_tokens": {"type": "object", "additionalProperties": false, "required": ["corner_radius", "wall_thickness", "chamfer_style", "fillet_style", "edge_language", "texture_density", "surface_finish", "relief_depth", "pattern_scale", "shadow_language", "visual_weight", "design_balance", "material_simulation"], "properties": {
+      "corner_radius": {"type": "string", "minLength": 1}, "wall_thickness": {"type": "string", "minLength": 1}, "chamfer_style": {"type": "string", "minLength": 1}, "fillet_style": {"type": "string", "minLength": 1}, "edge_language": {"type": "string", "minLength": 1}, "texture_density": {"type": "string", "minLength": 1}, "surface_finish": {"type": "string", "minLength": 1}, "relief_depth": {"type": "string", "minLength": 1}, "pattern_scale": {"type": "string", "minLength": 1}, "shadow_language": {"type": "string", "minLength": 1}, "visual_weight": {"type": "string", "minLength": 1}, "design_balance": {"type": "string", "minLength": 1}, "material_simulation": {"type": "string", "minLength": 1}
+    }},
+    "change": {"type": "object", "additionalProperties": false, "required": ["version", "date", "change"], "properties": {"version": {"type": "string"}, "date": {"type": "string", "format": "date"}, "change": {"type": "string", "minLength": 1}}}
+  }
+}

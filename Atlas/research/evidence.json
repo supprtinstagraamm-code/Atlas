@@ -1,0 +1,92 @@
+[
+  {
+    "evidence_id": "EVD-001",
+    "claim": "A current Etsy minimalist vase STL listing uses explicit digital-download disclosure, modern and Scandinavian decor language, print settings, use cases, and a visible sale price of US$2.40 from US$4.00; the page showed two item reviews and 19 favorites when accessed.",
+    "source_url": "https://www.etsy.com/listing/4481254921/tulip-vase-stl-modern-minimal-flower",
+    "accessed_at": "2026-07-07",
+    "marketplace": "Etsy",
+    "evidence_type": "Verified",
+    "confidence": "Medium",
+    "notes": "Direct observation of one listing, not market-wide demand or a stable price benchmark."
+  },
+  {
+    "evidence_id": "EVD-002",
+    "claim": "A current Etsy modern planter STL listing presents support-free printing, digital delivery, personal-use licensing, and an external commercial-license path; its visible sale price was US$3.24 from US$5.90 when crawled.",
+    "source_url": "https://www.etsy.com/listing/1723393608/modern-plant-pot-with-drainage-support",
+    "accessed_at": "2026-07-07",
+    "marketplace": "Etsy",
+    "evidence_type": "Verified",
+    "confidence": "Medium",
+    "notes": "Single-listing evidence supports packaging and licensing patterns, not profitability."
+  },
+  {
+    "evidence_id": "EVD-003",
+    "claim": "Etsy's arch-tray market page mixed physical products, molds, SVGs, and 3D-print files and displayed multiple jewelry, entryway, shelf-decor, and gift use cases.",
+    "source_url": "https://www.etsy.com/market/arch_tray",
+    "accessed_at": "2026-07-07",
+    "marketplace": "Etsy",
+    "evidence_type": "Proxy",
+    "confidence": "Medium",
+    "notes": "Useful for language and category adjacency; mixed formats prevent a clean STL demand estimate."
+  },
+  {
+    "evidence_id": "EVD-004",
+    "claim": "Etsy's arch-jewelry-tray page showed physical trays, 3D-printed trays, molds, and digital STL listings with repeated jewelry, perfume, vanity, nightstand, and entryway positioning.",
+    "source_url": "https://www.etsy.com/uk/market/arch_jewelry_tray",
+    "accessed_at": "2026-07-07",
+    "marketplace": "Etsy",
+    "evidence_type": "Proxy",
+    "confidence": "Medium",
+    "notes": "Supports use-case breadth and competition presence; results are regional and mixed-product."
+  },
+  {
+    "evidence_id": "EVD-005",
+    "claim": "A Cults3D minimalist-vase page showed two STL files, dimensions, 946 views, 29 downloads, four likes, and no makes at access time.",
+    "source_url": "https://cults3d.com/en/3d-model/art/minimalist-vase",
+    "accessed_at": "2026-07-07",
+    "marketplace": "Cults3D",
+    "evidence_type": "Verified",
+    "confidence": "Medium",
+    "notes": "Platform metrics are direct for one older free design; they do not establish paid resin-STL demand."
+  },
+  {
+    "evidence_id": "EVD-006",
+    "claim": "A Cults3D modern rectangle planter offered separate drainage and non-drainage STL files and showed 8.7k views, 526 downloads, 47 likes, and two comments at access time; the description said supports were required.",
+    "source_url": "https://cults3d.com/en/3d-model/home/modern-rectangle-planter",
+    "accessed_at": "2026-07-07",
+    "marketplace": "Cults3D",
+    "evidence_type": "Verified",
+    "confidence": "Medium",
+    "notes": "Demonstrates variant utility and visible engagement for a free FDM-oriented model, not resin economics."
+  },
+  {
+    "evidence_id": "EVD-007",
+    "claim": "A 2025 Cults3D minimalist vase-decor listing bundled two vase files with a base tray, drainage, no-support positioning, use cases, dimensions, and a link to a broader vase-and-planter collection.",
+    "source_url": "https://cults3d.com/en/3d-model/home/minimalist-vase-decor",
+    "accessed_at": "2026-07-07",
+    "marketplace": "Cults3D",
+    "evidence_type": "Verified",
+    "confidence": "Medium",
+    "notes": "Direct packaging evidence; stated print claims belong to the seller and are not Atlas validation."
+  },
+  {
+    "evidence_id": "EVD-008",
+    "claim": "A Cults3D abstract cutout-vase page offered two STL variants and showed 4.7k views, 429 downloads, 100 likes, two collections, and no makes at access time.",
+    "source_url": "https://cults3d.com/en/3d-model/home/abstract-cutout-vases-3d-printable-modern-minimalist-decor",
+    "accessed_at": "2026-07-07",
+    "marketplace": "Cults3D",
+    "evidence_type": "Verified",
+    "confidence": "Medium",
+    "notes": "Shows visible engagement and multi-variant packaging for one open-priced design; zero makes limits print-success evidence."
+  },
+  {
+    "evidence_id": "EVD-009",
+    "claim": "No direct current marketplace evidence was collected for Quiet Architectural resin card stands, display risers, relief tiles, or desk sculptures.",
+    "source_url": null,
+    "accessed_at": "2026-07-07",
+    "marketplace": "Cross-market",
+    "evidence_type": "Unknown",
+    "confidence": "Low",
+    "notes": "These concepts remain hypotheses requiring targeted research and prototype validation."
+  }
+]

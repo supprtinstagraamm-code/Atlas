@@ -1,0 +1,29 @@
+{
+  "product_id": "ATL-QA-001-007", "collection_id": "ATL-QA-001", "name": "Fold Desk Sculpture", "status": "Experimental", "version": "1.0.0", "owner": "Atlas Studio", "review_date": "2026-10-07", "lifecycle_stage": "Idea", "confidence": "Low",
+  "product_dna": {"core_purpose": "Serve as a small abstract desk or shelf focal object.", "design_philosophy": "One folded plane creates two volumes and a deep architectural shadow.", "emotional_appeal": "A compact pause from visual clutter.", "target_customer": "Minimal workspace and modern shelf-decor customers.", "functional_benefits": "Purely decorative with optional paperweight mass after validation.", "decorative_benefits": "Strong silhouette, changing shadow, and mineral presence.", "print_complexity": "Moderate; overhang, balance, and surface quality need tests.", "material_efficiency": "Shell construction may reduce mass but requires drain and stiffness design.", "brand_alignment": "Maximum visual alignment, weaker functional value.", "future_evolution": "Paired forms, mini study, weighted edition, and member variants.", "physical_manufacturing_potential": "Possible as a cast desk object if customer value and stability validate."},
+  "design_tokens": {"corner_radius": "Large fold-end radii", "wall_thickness": "Hollow shell hypothesis with drain access", "chamfer_style": "One precise fold highlight", "fillet_style": "Soft interior fold root", "edge_language": "Two planes and one fold", "texture_density": "None", "surface_finish": "Matte mineral", "relief_depth": "Not applicable", "pattern_scale": "Single sculptural gesture", "shadow_language": "One deep fold shadow", "visual_weight": "Visually grounded, physically light until tested", "design_balance": "Intentional asymmetric equilibrium", "material_simulation": "Honest resin"},
+  "evidence_ids": ["EVD-003", "EVD-009"],
+  "scores": {
+    "market_demand": {"score": 4, "rationale": "EVD-009 marks direct abstract desk-sculpture demand Unknown; EVD-003 offers only general shelf-decor adjacency."},
+    "competition_opportunity": {"score": 7, "rationale": "EVD-009 marks direct competitor evidence Unknown, leaving a possible but unmeasured opening."},
+    "profitability": {"score": 5, "rationale": "EVD-009 marks price, resin cost, conversion, and perceived value Unknown."},
+    "evergreen_potential": {"score": 8, "rationale": "EVD-003 supports general shelf decor outside seasonal motifs."},
+    "brand_alignment": {"score": 10, "rationale": "EVD-009 marks market validation Unknown; the restrained folded plane is an exact internal brand expression."},
+    "collection_potential": {"score": 8, "rationale": "EVD-003 supports shelf grouping; the object carries the collection's arch and shadow language."},
+    "bundle_potential": {"score": 7, "rationale": "EVD-007 demonstrates collection packaging, while a purely decorative object adds limited functional breadth."},
+    "physical_product_potential": {"score": 8, "rationale": "EVD-003 shows physical shelf-decor adjacency, though this exact form remains Unknown."},
+    "seo_opportunity": {"score": 4, "rationale": "EVD-009 confirms direct search-language evidence is Unknown."},
+    "resin_printability": {"score": 8, "rationale": "EVD-009 marks resin validation Unknown; the shell is feasible in principle but orientation and drainage matter."},
+    "ai_production_efficiency": {"score": 9, "rationale": "EVD-009 marks production evidence Unknown; a single parametric fold supports fast variants."},
+    "customer_value": {"score": 6, "rationale": "EVD-003 supports shelf decor but not willingness to pay for a purely decorative STL."},
+    "production_simplicity": {"score": 8, "rationale": "EVD-009 marks print evidence Unknown; few features reduce modeling effort despite orientation tests."},
+    "marketplace_fit": {"score": 5, "rationale": "EVD-003 supports Etsy shelf-decor context; Cults3D fit is Unknown."}
+  },
+  "risk_penalty": 4, "atlas_score": 63.8,
+  "strengths": ["Strongest pure brand expression", "Efficient variants", "Compelling shadow photography"],
+  "weaknesses": ["No functional benefit", "No direct market evidence", "Value depends heavily on presentation"],
+  "risks": ["May be dismissed as generic abstract decor", "Balance may fail", "Hollow shell may trap resin"],
+  "improvement_actions": ["Prototype solid and hollow bases", "Run silhouette preference test", "Research abstract desk sculpture STL terms"],
+  "expansion_opportunities": ["Paired forms", "Weighted paperweight edition", "Mini study set", "Member-exclusive folds"],
+  "change_history": [{"version": "1.0.0", "date": "2026-07-07", "change": "Initial low-confidence product hypothesis."}]
+}

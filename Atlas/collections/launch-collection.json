@@ -1,0 +1,18 @@
+{
+  "collection_id": "ATL-QA-001",
+  "name": "Threshold Rituals",
+  "hero_product_id": "ATL-QA-001-004",
+  "supporting_product_ids": ["ATL-QA-001-001", "ATL-QA-001-002", "ATL-QA-001-003", "ATL-QA-001-005", "ATL-QA-001-006", "ATL-QA-001-007"],
+  "mini_version": "Compact ring dish and bud-vessel pair for narrow shelves and travel gifting.",
+  "xl_version": "Entryway catchall and display-riser editions, released only after stability and resin-cost validation.",
+  "bundle_edition": "Seven-object Threshold Rituals digital collection with coordinated dimensions and display guidance.",
+  "premium_edition": "Enhanced relief set with presentation renders, print profiles, alternate bases, and verified support layouts.",
+  "commercial_license_edition": "Time- and volume-limited right to sell physical prints, subject to reviewed terms.",
+  "future_physical_product": "Small-batch cast-resin or mineral-composite ring dish after material and compliance review.",
+  "future_expansion_opportunities": ["Bathroom ritual set", "Entryway organizer set", "Desk ceremony set", "Seasonal mineral color editions", "Member-only relief studies"],
+  "status": "Experimental",
+  "version": "1.0.0",
+  "owner": "Atlas Studio",
+  "review_date": "2026-10-07",
+  "change_history": [{"version": "1.0.0", "date": "2026-07-07", "change": "Created low-confidence launch hypothesis from Etsy and Cults3D evidence."}]
+}

@@ -1,0 +1,29 @@
+{
+  "product_id": "ATL-QA-001-001", "collection_id": "ATL-QA-001", "name": "Threshold Catchall", "status": "Experimental", "version": "1.0.0", "owner": "Atlas Studio", "review_date": "2026-10-07", "lifecycle_stage": "Idea", "confidence": "Low",
+  "product_dna": {"core_purpose": "Hold keys, jewelry, or small daily objects at an entry or bedside.", "design_philosophy": "A shallow arch creates a calm boundary around everyday clutter.", "emotional_appeal": "A small arrival ritual and visual order.", "target_customer": "Design-conscious adults with modern entryways, desks, or nightstands.", "functional_benefits": "One visible landing place for small objects.", "decorative_benefits": "Architectural arch silhouette and mineral surface.", "print_complexity": "Moderate; shallow bowl geometry and underside supports require testing.", "material_efficiency": "Compact footprint, with mass and hollowing to be measured.", "brand_alignment": "Strong Quiet Architectural form and use story.", "future_evolution": "Mini valet, XL entry tray, divided premium edition, and bundle.", "physical_manufacturing_potential": "Plausible in cast resin or mineral composite after compliance review."},
+  "design_tokens": {"corner_radius": "Broad radii scaled to the arch", "wall_thickness": "Prototype hypothesis; record measured millimetres", "chamfer_style": "Shallow perimeter light catch", "fillet_style": "Continuous interior transitions", "edge_language": "Soft outer arch with one crisp recess", "texture_density": "Low", "surface_finish": "Matte mineral", "relief_depth": "Shallow catchall recess", "pattern_scale": "Single architectural gesture", "shadow_language": "Soft basin shadow and one edge highlight", "visual_weight": "Grounded and compact", "design_balance": "Centered arch with quiet asymmetry in use", "material_simulation": "Honest matte resin, not stone"},
+  "evidence_ids": ["EVD-003", "EVD-004", "EVD-009"],
+  "scores": {
+    "market_demand": {"score": 7, "rationale": "EVD-003 and EVD-004 show recurring tray, jewelry, entryway, and decor use language, but not resin-STL demand."},
+    "competition_opportunity": {"score": 4, "rationale": "EVD-003 and EVD-004 show many arch-tray forms and formats, implying meaningful competitive pressure."},
+    "profitability": {"score": 6, "rationale": "EVD-001 and EVD-002 show low single-file prices; actual resin costs, conversion, and margin are Unknown."},
+    "evergreen_potential": {"score": 8, "rationale": "EVD-004 shows enduring jewelry, nightstand, vanity, and entryway uses rather than a seasonal motif."},
+    "brand_alignment": {"score": 9, "rationale": "EVD-009 marks product-specific market evidence Unknown; the arch and restrained recess strongly match internal Quiet Architectural rules."},
+    "collection_potential": {"score": 9, "rationale": "EVD-003 and EVD-004 show adjacent tray and display use cases that support multiple collection roles."},
+    "bundle_potential": {"score": 9, "rationale": "EVD-007 demonstrates multi-part packaging and collection links; the catchall pairs naturally with smaller ritual objects."},
+    "physical_product_potential": {"score": 8, "rationale": "EVD-004 shows physical trays across several materials, a proxy for physical-product adjacency."},
+    "seo_opportunity": {"score": 6, "rationale": "EVD-003 and EVD-004 provide clear arch tray, catchall, jewelry, entryway, and decor language but no volume data."},
+    "resin_printability": {"score": 8, "rationale": "EVD-009 confirms resin validation is Unknown; compact shallow geometry appears testable but requires support and warping prototypes."},
+    "ai_production_efficiency": {"score": 8, "rationale": "EVD-009 marks production evidence Unknown; the form is parametrically simple with limited detailing."},
+    "customer_value": {"score": 8, "rationale": "EVD-004 repeatedly associates arch trays with jewelry, keys, vanity, and organization uses."},
+    "production_simplicity": {"score": 7, "rationale": "EVD-009 marks resin production Unknown; one-piece geometry is simple but broad shallow surfaces can distort."},
+    "marketplace_fit": {"score": 7, "rationale": "EVD-003 and EVD-004 show Etsy adjacency; Cults3D-specific tray evidence remains Unknown."}
+  },
+  "risk_penalty": 4, "atlas_score": 69.9,
+  "strengths": ["Clear daily use", "Strong collection anchor", "Compact resin scale"],
+  "weaknesses": ["Crowded arch-tray language", "No resin prototype", "No product-specific sales evidence"],
+  "risks": ["Broad base may warp", "Support scars may affect the visible underside", "Price ceiling is unknown"],
+  "improvement_actions": ["Prototype flat and tilted orientations", "Test a removable base plinth", "Research exact catchall STL queries"],
+  "expansion_opportunities": ["Mini ring valet", "XL key tray", "Divided premium edition", "Physical mineral-composite edition"],
+  "change_history": [{"version": "1.0.0", "date": "2026-07-07", "change": "Initial low-confidence product hypothesis."}]
+}

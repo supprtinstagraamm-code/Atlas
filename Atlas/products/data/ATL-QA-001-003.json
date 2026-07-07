@@ -1,0 +1,29 @@
+{
+  "product_id": "ATL-QA-001-003", "collection_id": "ATL-QA-001", "name": "Ledge Card Stand", "status": "Experimental", "version": "1.0.0", "owner": "Atlas Studio", "review_date": "2026-10-07", "lifecycle_stage": "Idea", "confidence": "Low",
+  "product_dna": {"core_purpose": "Hold a place card, photograph, small print, or daily note.", "design_philosophy": "A low architectural plinth lets the displayed item remain primary.", "emotional_appeal": "Makes a small message or image feel intentional.", "target_customer": "Desk users, gift buyers, hosts, and small-space decorators.", "functional_benefits": "Interchangeable display with little surface area.", "decorative_benefits": "Quiet arched notch and grounded plinth.", "print_complexity": "Low to moderate; slot clearance and balance need prototypes.", "material_efficiency": "Small solid part with measurable low resin volume.", "brand_alignment": "Strong restraint and useful architecture.", "future_evolution": "Single, pair, menu, photo, and commercial event editions.", "physical_manufacturing_potential": "Suitable for small-batch resin or mineral-composite production after stability tests."},
+  "design_tokens": {"corner_radius": "Broad end radii", "wall_thickness": "Solid plinth with tested slot", "chamfer_style": "Shallow top chamfer", "fillet_style": "Soft base transitions", "edge_language": "Low horizontal ledge and one precise slot", "texture_density": "None", "surface_finish": "Matte mineral", "relief_depth": "Optional shallow collection mark underneath", "pattern_scale": "Single gesture", "shadow_language": "Short grounded shadow", "visual_weight": "Low and stable", "design_balance": "Centered", "material_simulation": "Honest solid-color resin"},
+  "evidence_ids": ["EVD-003", "EVD-004", "EVD-009"],
+  "scores": {
+    "market_demand": {"score": 4, "rationale": "EVD-009 states that direct card-stand market evidence is Unknown; EVD-003 offers only shelf-decor adjacency."},
+    "competition_opportunity": {"score": 6, "rationale": "EVD-009 marks competition evidence Unknown, so the score reflects a provisional opening rather than a measured gap."},
+    "profitability": {"score": 6, "rationale": "EVD-009 marks cost and willingness-to-pay evidence Unknown; compact geometry suggests low material exposure only."},
+    "evergreen_potential": {"score": 7, "rationale": "EVD-003 shows ongoing shelf and gift contexts, but direct card-display evidence is Unknown."},
+    "brand_alignment": {"score": 8, "rationale": "EVD-009 marks market validation Unknown; the low plinth and restrained slot fit internal brand rules."},
+    "collection_potential": {"score": 8, "rationale": "EVD-003 and EVD-004 show shelf, vanity, and entryway contexts compatible with a display role."},
+    "bundle_potential": {"score": 8, "rationale": "EVD-007 demonstrates collection packaging; a small stand adds a distinct function to the bundle."},
+    "physical_product_potential": {"score": 7, "rationale": "EVD-009 marks direct physical demand Unknown; compact solid geometry is operationally plausible."},
+    "seo_opportunity": {"score": 4, "rationale": "EVD-009 confirms direct keyword evidence is Unknown."},
+    "resin_printability": {"score": 8, "rationale": "EVD-009 marks validation Unknown; small solid geometry appears suitable pending clearance and balance tests."},
+    "ai_production_efficiency": {"score": 8, "rationale": "EVD-009 marks production evidence Unknown; the part can be built parametrically with few features."},
+    "customer_value": {"score": 7, "rationale": "EVD-003 supports shelf and gift adjacency, while the multi-use display claim remains a hypothesis."},
+    "production_simplicity": {"score": 8, "rationale": "EVD-009 marks resin evidence Unknown; a small single part should need limited supports if oriented well."},
+    "marketplace_fit": {"score": 5, "rationale": "EVD-003 provides Etsy adjacency; direct Cults3D category evidence is Unknown in EVD-009."}
+  },
+  "risk_penalty": 4, "atlas_score": 61.3,
+  "strengths": ["Small material footprint", "Distinct bundle function", "Simple parametric geometry"],
+  "weaknesses": ["No direct market evidence", "Low standalone visual drama", "Slot standards vary"],
+  "risks": ["Cards may lean or slip", "Slot may trap uncured resin", "Low perceived standalone value"],
+  "improvement_actions": ["Test three slot widths", "Validate phone-free use messaging", "Research card and photo stand STL listings"],
+  "expansion_opportunities": ["Pair set", "Menu stand", "Photo ledge", "Event-commercial pack"],
+  "change_history": [{"version": "1.0.0", "date": "2026-07-07", "change": "Initial low-confidence product hypothesis."}]
+}

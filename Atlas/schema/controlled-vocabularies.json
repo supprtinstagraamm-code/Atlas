@@ -1,0 +1,30 @@
+{
+  "version": "1.0.0",
+  "factor_weights": {
+    "market_demand": 0.14,
+    "competition_opportunity": 0.08,
+    "profitability": 0.10,
+    "evergreen_potential": 0.10,
+    "brand_alignment": 0.10,
+    "collection_potential": 0.07,
+    "bundle_potential": 0.07,
+    "physical_product_potential": 0.06,
+    "seo_opportunity": 0.07,
+    "resin_printability": 0.08,
+    "ai_production_efficiency": 0.03,
+    "customer_value": 0.05,
+    "production_simplicity": 0.03,
+    "marketplace_fit": 0.02
+  },
+  "evidence_types": ["Verified", "Proxy", "Assumption", "Unknown"],
+  "confidence_levels": ["High", "Medium", "Low"],
+  "asset_statuses": ["Draft", "Experimental", "Approved", "Released", "Deprecated"],
+  "lifecycle_stages": ["Idea", "Prototype", "Validated Product", "Hero Product", "Collection", "Bundle", "Premium Version", "Commercial License", "Physical Product", "Membership Exclusive", "Legacy Product", "Retired"],
+  "qa_statuses": ["Pass", "Revise", "Fail", "Unknown"],
+  "decision_bands": [
+    {"decision": "Prioritize", "minimum": 80.0, "maximum": 100.0},
+    {"decision": "Validate", "minimum": 70.0, "maximum": 79.99},
+    {"decision": "Revise", "minimum": 60.0, "maximum": 69.99},
+    {"decision": "Reject", "minimum": 0.0, "maximum": 59.99}
+  ]
+}

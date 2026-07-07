@@ -1,0 +1,29 @@
+{
+  "product_id": "ATL-QA-001-004", "collection_id": "ATL-QA-001", "name": "Aperture Ring Dish", "status": "Experimental", "version": "1.0.0", "owner": "Atlas Studio", "review_date": "2026-10-07", "lifecycle_stage": "Idea", "confidence": "Low",
+  "product_dna": {"core_purpose": "Hold rings and small jewelry beside a bed, sink, or vanity.", "design_philosophy": "A circular aperture nested in an arch turns a simple dish into a quiet landmark.", "emotional_appeal": "A reliable place for a valued small object.", "target_customer": "Minimal-interior and gift customers who wear daily jewelry.", "functional_benefits": "Shallow catch area with a central ring-rest feature.", "decorative_benefits": "Architectural negative space and mineral tactility.", "print_complexity": "Low to moderate; contact surfaces and shallow basin require testing.", "material_efficiency": "Compact and shallow, with low expected resin volume.", "brand_alignment": "Highest alignment in the launch set.", "future_evolution": "Travel mini, paired earring tray, premium relief, and physical gift edition.", "physical_manufacturing_potential": "Strong small-batch candidate after skin-contact, washability, and stability review."},
+  "design_tokens": {"corner_radius": "Broad arch perimeter", "wall_thickness": "Compact solid base with tested basin", "chamfer_style": "Fine outer highlight chamfer", "fillet_style": "Soft jewelry-contact transitions", "edge_language": "Arch outside, circular aperture inside", "texture_density": "Very low", "surface_finish": "Smooth matte mineral", "relief_depth": "Shallow basin", "pattern_scale": "One aperture sized to object", "shadow_language": "Circular inner shadow and soft outer falloff", "visual_weight": "Small but grounded", "design_balance": "Centered", "material_simulation": "Honest resin with optional mineral pigment look"},
+  "evidence_ids": ["EVD-003", "EVD-004", "EVD-007", "EVD-009"],
+  "scores": {
+    "market_demand": {"score": 6, "rationale": "EVD-004 shows repeated jewelry-tray and vanity uses, but the page mixes physical, mold, and digital products."},
+    "competition_opportunity": {"score": 4, "rationale": "EVD-004 shows many arch and jewelry-tray alternatives, reducing whitespace."},
+    "profitability": {"score": 6, "rationale": "EVD-004 shows varied physical and digital price points, but actual Atlas costs and conversion are Unknown."},
+    "evergreen_potential": {"score": 8, "rationale": "EVD-004 repeatedly connects trays with jewelry, nightstand, vanity, and organization uses."},
+    "brand_alignment": {"score": 9, "rationale": "EVD-009 marks product-specific validation Unknown; aperture, arch, and restrained depth closely fit the brand."},
+    "collection_potential": {"score": 9, "rationale": "EVD-003 and EVD-004 show strong adjacency across entryway, vanity, shelf, and gift contexts."},
+    "bundle_potential": {"score": 9, "rationale": "EVD-007 demonstrates multi-part collection packaging; the ring dish can anchor smaller companion objects."},
+    "physical_product_potential": {"score": 8, "rationale": "EVD-004 shows many physical jewelry and arch trays, supporting physical-category adjacency."},
+    "seo_opportunity": {"score": 6, "rationale": "EVD-004 supplies ring dish, jewelry tray, vanity, nightstand, and arch language without volume data."},
+    "resin_printability": {"score": 9, "rationale": "EVD-009 marks resin validation Unknown; compact shallow geometry is the least complex launch hypothesis."},
+    "ai_production_efficiency": {"score": 8, "rationale": "EVD-009 marks production evidence Unknown; the design uses a small parametric feature set."},
+    "customer_value": {"score": 8, "rationale": "EVD-004 repeatedly shows jewelry storage and display as a clear customer use."},
+    "production_simplicity": {"score": 9, "rationale": "EVD-009 marks resin validation Unknown; a compact one-piece dish should be simple relative to vessels and tiles."},
+    "marketplace_fit": {"score": 6, "rationale": "EVD-004 supports Etsy adjacency; direct Cults3D ring-dish evidence is Unknown."}
+  },
+  "risk_penalty": 3, "atlas_score": 70.7,
+  "strengths": ["Clear jewelry use", "Compact resin scale", "Strongest brand and collection fit"],
+  "weaknesses": ["Crowded tray market", "Limited Cults3D evidence", "No prototype or cost record"],
+  "risks": ["Small basin may feel generic", "Surface scratches may show", "Market willingness to pay is unknown"],
+  "improvement_actions": ["Prototype basin depths and aperture sizes", "Test jewelry photography", "Research ring-dish STL competition directly"],
+  "expansion_opportunities": ["Travel mini", "Earring pair tray", "Premium relief edition", "Gift-ready physical edition"],
+  "change_history": [{"version": "1.0.0", "date": "2026-07-07", "change": "Selected as low-confidence hero candidate for validation."}]
+}
